@@ -1,18 +1,13 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="4" skipped="0" tests="12" time="0.058" timestamp="2025-11-05T15:28:28.860925+02:00" hostname="MRADZIIEVS2-NB"><testcase classname="Lesson_3" name="test_1" time="0.001" /><testcase classname="Lesson_3" name="test_2" time="0.000" /><testcase classname="Lesson_3" name="test_3" time="0.000" /><testcase classname="Lesson_3" name="test_4" time="0.000" /><testcase classname="Lesson_3" name="test_5" time="0.000" /><testcase classname="Lesson_3" name="test_6" time="0.000" /><testcase classname="Lesson_3" name="test_7" time="0.000"><failure message="assert False">def test_7():   # pytest -qq Lesson_3.py
+<?xml version="1.0" encoding="utf-8"?><testsuites name="pytest tests"><testsuite name="pytest" errors="0" failures="3" skipped="0" tests="11" time="0.052" timestamp="2025-11-05T16:06:19.414963+02:00" hostname="MRADZIIEVS2-NB"><testcase classname="Lesson_3_HW" name="test_1" time="0.001" /><testcase classname="Lesson_3_HW" name="test_2" time="0.000" /><testcase classname="Lesson_3_HW" name="test_3" time="0.000" /><testcase classname="Lesson_3_HW" name="test_4" time="0.000" /><testcase classname="Lesson_3_HW" name="test_5" time="0.000" /><testcase classname="Lesson_3_HW" name="test_6" time="0.000" /><testcase classname="Lesson_3_HW" name="test_7" time="0.001"><failure message="assert False">def test_7():
 &gt;       assert False
 E       assert False
 
-Lesson_3.py:22: AssertionError</failure></testcase><testcase classname="Lesson_3" name="test_8" time="0.000" /><testcase classname="Lesson_3" name="test_qa_2" time="0.000" /><testcase classname="Lesson_3" name="test_qa_3" time="0.000"><failure message="assert False">def test_qa_3():   # pytest --ff Lesson_3.py
+Lesson_3_HW.py:22: AssertionError</failure></testcase><testcase classname="Lesson_3_HW" name="test_8" time="0.000" /><testcase classname="Lesson_3_HW" name="test_qa_2" time="0.000" /><testcase classname="Lesson_3_HW" name="test_qa_3" time="0.000"><failure message="assert False">def test_qa_3():
 &gt;       assert False
 E       assert False
 
-Lesson_3.py:31: AssertionError</failure></testcase><testcase classname="Lesson_3" name="test_qa_4" time="0.000"><failure message="assert False">def test_qa_4():  # pytest --maxfail=2 Lesson_3.py
+Lesson_3_HW.py:32: AssertionError</failure></testcase><testcase classname="Lesson_3_HW" name="test_qa_4" time="0.000"><failure message="assert False">def test_qa_4():
 &gt;       assert False
 E       assert False
 
-Lesson_3.py:34: AssertionError</failure></testcase><testcase classname="Lesson_3" name="test_qa_6" time="0.000"><failure message="NameError: name 'time' is not defined. Did you forget to import 'time'?">def test_qa_6():
-&gt;       time.sleep(1)  # pytest --durations=2 -vv Lesson_3.py
-        ^^^^
-E       NameError: name 'time' is not defined. Did you forget to import 'time'?
-
-Lesson_3.py:37: NameError</failure></testcase></testsuite></testsuites>
+Lesson_3_HW.py:37: AssertionError</failure></testcase></testsuite></testsuites>
